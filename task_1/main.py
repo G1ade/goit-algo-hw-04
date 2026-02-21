@@ -41,8 +41,8 @@ def total_salary(path: str) -> tuple | None:
     return total, average
 
 
-total, average = total_salary('goit-algo-hw-04/task_1/salary_file.txt')
+total, average = total_salary('task_1\salary_file.txt')
 
 # Check if calculation was successful before printing result
 if total is not None and average is not None:
-    print(f"Total salary amount: {total}, Середня заробітна плата: {average}")
+    print(f"Total salary amount: {total}, Average salary: {average}")
