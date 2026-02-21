@@ -22,7 +22,7 @@ def get_cats_info(path: str) -> list | None:
     return data
 
 
-cats_info = get_cats_info("goit-algo-hw-04/task_2/cats_file.txt")
+cats_info = get_cats_info("task_2\cats_file.txt")
 
 if cats_info is not None:
     print(cats_info)
